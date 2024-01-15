@@ -60,7 +60,7 @@ const ShoppingList = () => {
     } else {
       alert('Lütfen tüm alanları doldurun.');
     }
-  };
+  }; 
 
   const handleBuyProduct = (productId) => {
     const updatedProducts = products.map((product) =>
